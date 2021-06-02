@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport content=" width=device-widt, initial-scale=1.0>
+    <title>Nouveau projet Reservia Alain ESTNER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="blocpage">
+
+        <!--BOITE 1 (HEADER) = En tête-->
+
+        <header>
+            <div class="containerheader">
+                <div id="logo">
+                    <div class="div-logo">
+                        <img class="logosearch" src="images/logo/Reservia.svg"
+                            alt="Nouveau projet Reservia Alain ESTNER" />
+                    </div>
+                </div>
+            </div>
+            <nav class="headernav">
+                <ul>
+
+                    <li>
+                        <a href="#Hebergements">Hébergements</a>
+                    </li>
+
+                    <li>
+                        <a href="#Activites">Activités</a>
+                    </li>
+                    <li>
+                        <a href="#">S'inscrire</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--BOITE 2 (HEADER) = partie zone de recherche (boutons & filtres)-->
+
+            <div class="subtext">
+                <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+            <div class="logosearch">
+                <div class="iconemap">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                </div>
+                <form method="post" action="traitement.php">
+                    <p>
+                        <input type="text" name="localisation" id="city" placeholder="Marseille,France">
+                    </p>
+                </form>
+                <div class="loupelogo">
+                    <a class="boutonderecherche" href="#">Rechercher</a>
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </header>
+    </div>
+</body>

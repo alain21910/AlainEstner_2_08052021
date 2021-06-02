@@ -1,0 +1,20 @@
+/* PARAMETRES GENERAUX DE POLICE */
+
+body{
+    margin: 0 auto;
+}
+@font-face{
+    font-family: "Raleway(1).zip";
+    src: url("static/Raleway-Italic-VariableFont_wght.ttf");
+     src: url(Relavay-VariableFont_wght.ttf);
+}
+
+section.top-page{
+    background-color: white;
+}
+
+@font-face {
+    font-family: "Raleway-thin";
+    src: url("static/Raleway-Thin.ttf");
+  }
+  
