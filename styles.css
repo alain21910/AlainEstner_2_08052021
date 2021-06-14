@@ -161,6 +161,71 @@ color: #0065fc;
 color: black;
 }
 
+.boutonfiltre p {
+  font-weight: bold;
+  font-size: 15px;
+  }
+  
+  .filtres {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  }
+  
+  .filtres,
+  .filtres .content {
+  display: flex;
+  flex-flow: row wrap;
+  }
+  
+  .filtres .title {
+  margin-bottom: 20px;
+  padding-top: inherit;
+  padding-right: 20px;
+  }
+  
+  .filtres .boutonfiltre {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 200px;
+  border: 2px #F2F2F2 solid;
+  height: 50px;
+  position: relative;
+  padding-left: 55px;
+  padding-right: 14px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  transition: transform .2s;
+  cursor: pointer;
+  }
+  
+  .filtres .boutonfiltre:hover {
+  transform: scale(1.05);
+  }
+  
+  .filtres .boutonfiltre:first-child {
+  margin-left: 0;
+  }
+  
+  .filtres .boutonfiltre:last-child {
+  margin-right: 0;
+  }
+  
+  .filtres .boutonfiltre i {
+  line-height: 50px;
+  color: #0065FC;
+  position: absolute;
+  width: 50px;
+  text-align: center;
+  background: #DEEBFF;
+  left: -2px;
+  border-radius: 100%;
+  }
+  
+  .boutonfiltre p {
+  margin: auto;
+  }
+
 /* la ligne information */
 
 .info {
@@ -255,70 +320,6 @@ a {
   padding-left: 28px;
 }
 
-.boutonfiltre p {
-  font-weight: bold;
-  font-size: 15px;
-  }
-  
-  .filtres {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
-  }
-  
-  .filtres,
-  .filtres .content {
-  display: flex;
-  flex-flow: row wrap;
-  }
-  
-  .filtres .title {
-  margin-bottom: 20px;
-  padding-top: inherit;
-  padding-right: 20px;
-  }
-  
-  .filtres .boutonfiltre {
-  display: flex;
-  justify-content: space-between;
-  border-radius: 200px;
-  border: 2px #F2F2F2 solid;
-  height: 50px;
-  position: relative;
-  padding-left: 55px;
-  padding-right: 14px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  transition: transform .2s;
-  cursor: pointer;
-  }
-  
-  .filtres .boutonfiltre:hover {
-  transform: scale(1.05);
-  }
-  
-  .filtres .boutonfiltre:first-child {
-  margin-left: 0;
-  }
-  
-  .filtres .boutonfiltre:last-child {
-  margin-right: 0;
-  }
-  
-  .filtres .boutonfiltre i {
-  line-height: 50px;
-  color: #0065FC;
-  position: absolute;
-  width: 50px;
-  text-align: center;
-  background: #DEEBFF;
-  left: -2px;
-  border-radius: 100%;
-  }
-  
-  .boutonfiltre p {
-  margin: auto;
-  }
   
   .nombrelogementstxt {
   padding: 5px 0;
@@ -374,31 +375,28 @@ input {
   height: 50px;
   font-size: 15px;
 }
-       /* PARAMETRES ACTIVITES */
+      /*PARAMETRES HEBERGEMENT*/ 
 
-.activites {
+
+
+
+/* PARAMETRES ACTIVITES */
+
+.Activites {
   margin-top: 50px;
   margin-bottom: 50px;
-  
        }
-.blocActivites {
-  width: 100%;
-  height: 600px;
-}
 
-/*Réglage Bloc Activites */
-
-.cubeActivites {
+.blocActivites2356 {
   width: 23%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
-}
-
-/* fin reglage bloc */
+  }
 
 .hauteurTitre {
   height: 70px;
 }
+
 .titreActivites {
   display: flex;
   justify-content: flex-start;
@@ -407,16 +405,53 @@ input {
   width: 95%;
 }
 
-.imageActivites1  {
-background-image: url("./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-background-size: cover;
-background-position: center;
-width: 100%;
-height: 530px;
-border-radius: 15px 15px 0 0 px;
+.imageActivites1 {
+  background-image:url(images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) ;
+  background-size: cover;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0 ;
 }
 
+.imageActivites2 {
+  background-image:url(images\activites\3_medium\paul-hermann-QFTrLdQIRhI-unsplash.jpg) ;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 15px 0 0 ;
+}
 
+.imageActivites3 {
+  background-image:url(images\activites\3_medium\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) ;
+  background-size: cover;
+  width: 100%;
+  height: 130px;
+  border-radius: 15px 15px 0 0 ;
+}
+
+.imageActivites4 {
+  background-image:url(images\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) ;
+  background-size: cover;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0 ;
+}
+
+.imageActivites5 {
+  background-image:url(images\activites\3_medium\florian-wehde-xW9e8gdotxI-unsplash.jpg) ;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0 ;
+}
+
+.imageActivites6 {
+  background-image:url(images\activites\3_medium\lena-paulin-wH2-EJoDcV0-unsplash.jpg) ;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0 ;
+}
 
        /* FOOTER*/
 
