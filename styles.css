@@ -376,6 +376,47 @@ input {
 }
        /* PARAMETRES ACTIVITES */
 
+.activites {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+       }
+.blocActivites {
+  width: 100%;
+  height: 600px;
+}
+
+/*Réglage Bloc Activites */
+
+.cubeActivites {
+  width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+/* fin reglage bloc */
+
+.hauteurTitre {
+  height: 70px;
+}
+.titreActivites {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  width: 95%;
+}
+
+.imageActivites1  {
+background-image: url("./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 530px;
+border-radius: 15px 15px 0 0 px;
+}
+
+
 
        /* FOOTER*/
 
