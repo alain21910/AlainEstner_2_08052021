@@ -375,13 +375,24 @@ input {
   height: 50px;
   font-size: 15px;
 }
-      /*PARAMETRES HEBERGEMENT*/ 
 
+      /*PARAMETRES HEBERGEMENT*/ 
 
 
 
 /* PARAMETRES ACTIVITES */
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: dodgerblue;
+}
+
+.flex-container >div {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+.
 .Activites {
   margin-top: 50px;
   margin-bottom: 50px;
