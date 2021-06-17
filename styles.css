@@ -34,6 +34,18 @@ h6{
   margin: 0; /* Retire les marges des titres */
 } 
 
+.fas {
+  color: #0065fc;
+}
+
+.blue {
+  color: #0065fc;
+}
+
+.grey {
+  color: #F2F2F2;
+}
+
 .popular-container,
 .footer {
 background: #f2f2f2;
@@ -71,20 +83,53 @@ font-family: "Raleway";
   flex-direction: row;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 .hebergements-marseille {
   width: 65%;
   background-color: #F2F2F2;
+  border-radius: 15px;
+  padding: 10px;
   margin-right: 25px;
 }
 
 .lodging-block {
     display: flex; 
+    width: 30%;
     flex-direction: column; 
     padding: 5px; 
     background-color: #FFFFFF; 
     border-radius: 10px; 
     margin-right: 10px; 
     margin-left: 10px;
+}
+
+.popular-lodging-block {
+    display: flex; 
+    width: 100%;
+    flex-direction: row; 
+    padding: 5px; 
+    background-color: #FFFFFF; 
+    border-radius: 10px; 
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+
+.popular-lodging-block img{
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 33%;
+  height: 175px;
+}
+
+.popular-lodging-desc {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .lodging-block h3, .lodging-block h4 {
@@ -96,19 +141,29 @@ font-family: "Raleway";
 .lodging-block img{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    width: 280px;
+    width: 100%;
     height: 150px;
 }
 
 .stars {
-    margin-top: 5px
-    }
+    margin-top: auto;
+    margin-bottom: 10px;
+}
 
 .populaires {
   width: 33%;
+  border-radius: 15px;
+  padding: 10px;
   background-color: #f2f2f2;
 }
 
+.titre-populaire {
+  justify-content: space-between;
+}
+
+.fa-chart-line {
+  color: #000000;
+}
 /* Mise en forme des filtres*/
 
 .titrefiltres {
@@ -153,12 +208,17 @@ background-color: #d9d9d9;
 cursor: pointer;
 }
 
-.fas {
-color: #0065fc;
-}
-
 .fa-map-marker-alt {
 color: black;
+}
+
+.search span {
+  color: #FFFFFF;
+}
+
+.search i {
+  display: none;
+  visibility: hidden;
 }
 
 .boutonfiltre p {
@@ -328,15 +388,10 @@ a {
 
       /* le texte d'accroche */
 
-.subtext {
-  margin-bottom: -35px;
-}
-
       /* le formulaire de recherche */
 
 .logosearch {
   display: inline-flex;
-  margin-top: 15px;
   align-items: center;
 }
 
@@ -371,7 +426,7 @@ input {
   border-top: #f2f2f2 1px solid;
   border-bottom: #f2f2f2 1px solid;
   padding: 0 1.5em;
-  width: 60%;
+  width: 200px;
   height: 50px;
   font-size: 15px;
 }
@@ -388,21 +443,46 @@ input {
   background-color: dodgerblue;
 }
 
-.flex-container >div {
+.flex-container > div {
   background-color: #f2f2f2;
   text-align: center;
 }
-.
+
 .Activites {
   margin-top: 50px;
   margin-bottom: 50px;
-       }
+}
 
-.blocActivites2356 {
+.blocActivites {
   width: 23%;
+  margin-right: 1%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
-  }
+}
+
+.blocActivite-container {
+  width: 23%;
+  margin-right: 1%;
+}
+
+.blocActivites2 {
+  width: 100%;
+  /* margin-bottom: auto; */
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.blocActivites img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.blocActivites2 img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
 
 .hauteurTitre {
   height: 70px;
@@ -415,51 +495,36 @@ input {
   padding-left: 5%;
   width: 95%;
 }
+.imageActivite3, .imageActivite6 {
+  margin-top: 20px;
+}
 
-.imageActivites1 {
-  background-image:url(images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) ;
-  background-size: cover;
-  width: 100%;
+.imageActivite1 img {
   height: 530px;
   border-radius: 15px 15px 0 0 ;
 }
 
-.imageActivites2 {
-  background-image:url(images\activites\3_medium\paul-hermann-QFTrLdQIRhI-unsplash.jpg) ;
-  background-size: cover;
-  width: 100%;
+.imageActivite2 img {
   height: 250px;
   border-radius: 15px 15px 0 0 ;
 }
 
-.imageActivites3 {
-  background-image:url(images\activites\3_medium\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) ;
-  background-size: cover;
-  width: 100%;
+.imageActivite3 img {
   height: 130px;
   border-radius: 15px 15px 0 0 ;
 }
 
-.imageActivites4 {
-  background-image:url(images\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) ;
-  background-size: cover;
-  width: 100%;
+.imageActivite4 img {
   height: 530px;
   border-radius: 15px 15px 0 0 ;
 }
 
-.imageActivites5 {
-  background-image:url(images\activites\3_medium\florian-wehde-xW9e8gdotxI-unsplash.jpg) ;
-  background-size: cover;
-  width: 100%;
-  height: 200px;
+.imageActivite5 img {
+  height: 185px;
   border-radius: 15px 15px 0 0 ;
 }
 
-.imageActivites6 {
-  background-image:url(images\activites\3_medium\lena-paulin-wH2-EJoDcV0-unsplash.jpg) ;
-  background-size: cover;
-  width: 100%;
+.imageActivite6 img {
   height: 200px;
   border-radius: 15px 15px 0 0 ;
 }
