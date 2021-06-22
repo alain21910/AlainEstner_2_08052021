@@ -12,13 +12,6 @@ body {
  box-sizing: border-box;
 }
 
-@font-face {
-font-family: 'Raleway-thin';
-src: url('fonts/Raleway-Regular.ttf');
-font-weight: normal;
-font-style: normal;
-}
-
 /* Rendre les images responsive */
 img {
 width: 100%;
@@ -83,11 +76,13 @@ font-family: "Raleway";
 .row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  justify-content: space-between; 
 }
 
 .hebergements-marseille {
@@ -235,7 +230,7 @@ color: black;
   padding: 20px 0;
   }
   
-  .filtres,
+  .filtres, 
   .filtres .content {
   display: flex;
   flex-flow: row wrap;
