@@ -76,6 +76,8 @@ font-family: "Raleway";
   justify-content: space-between;
 }
 
+
+/* HEBERGEMENTS*/
 /* le conteneur */
 
 .row {
@@ -94,34 +96,34 @@ font-family: "Raleway";
   border-radius: 15px;
   padding: 10px;
   margin-right: 25px;
-}
+ }
 
 .lodging-block {
     display: flex; 
     width: 30%;
     flex-direction: column; 
-    padding: 5px; 
+    padding: 25px; 
     background-color: #FFFFFF; 
     border-radius: 10px; 
-    margin-right: 10px; 
+    margin-right: 25px; 
     margin-left: 10px;
 }
 
 .popular-lodging-block {
     display: flex; 
-    width: 100%;
+    width: 85%;
     flex-direction: row; 
-    padding: 5px; 
+    padding: 15px; 
     background-color: #FFFFFF; 
-    border-radius: 10px; 
-    margin-right: 10px; 
-    margin-left: 10px;
+    border-radius: 15px; 
+    margin-right: 15px; 
+    margin-left: 15px;
 }
 
 .popular-lodging-block img{
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
-  width: 33%;
+  width: 35%;
   height: 175px;
 }
 
@@ -431,43 +433,38 @@ input {
   font-size: 15px;
 }
 
-      /*PARAMETRES HEBERGEMENT*/ 
-
-
-
 /* PARAMETRES ACTIVITES */
 
 .flex-container {
   display: flex;
   flex-direction: column;
-  background-color: dodgerblue;
 }
 
 .flex-container > div {
   background-color: #f2f2f2;
-  text-align: center;
+  text-align: center; 
 }
 
 .Activites {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  margin: 35px;
 }
 
 .blocActivites {
-  width: 23%;
+  width: 25%;
   margin-right: 1%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
 .blocActivite-container {
-  width: 23%;
+  width: 25%;
   margin-right: 1%;
 }
 
 .blocActivites2 {
   width: 100%;
-  /* margin-bottom: auto; */
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
@@ -496,7 +493,7 @@ input {
   width: 95%;
 }
 .imageActivite3, .imageActivite6 {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .imageActivite1 img {
@@ -505,7 +502,7 @@ input {
 }
 
 .imageActivite2 img {
-  height: 250px;
+  height: 290px;
   border-radius: 15px 15px 0 0 ;
 }
 
@@ -520,7 +517,7 @@ input {
 }
 
 .imageActivite5 img {
-  height: 185px;
+  height: 220px;
   border-radius: 15px 15px 0 0 ;
 }
 
@@ -560,3 +557,277 @@ input {
 }
 
       /*RESPONSIVE MOBILES*/
+
+      
+/*RESPONSIVE MOBILES*/
+
+@media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
+  /* PARAMETRES GENERAUX */
+
+  h2 {
+    /*font-family: 'Raleway-Semibold';*/
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  H3 {
+    font-size: 16px;
+  }
+
+  /* HEADER */
+
+  header {
+    margin: 0;
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .containerheader {
+    display: grid;
+    padding-top: 5px;
+  }
+
+  .headernav {
+    margin-right: 0;
+  }
+
+  /* HEADER MENU */
+
+  .inscrire {
+    position: ABSOLUTE;
+    top: 29px;
+    right: 30px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  nav ul {
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  header ul li {
+    margin-left: 0;
+    padding: 10px 46px 5px 11px;
+  }
+
+  header ul li a:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+    padding-bottom: 5px;
+  }
+
+  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
+
+  .loupelogo i {
+    display: inline;
+    color: white;
+    background-color: #0065fc;
+    padding: 18px;
+    border-radius: 18px;
+    position: relative;
+    right: 52px;
+  }
+
+  .boutonderecherche {
+    display: none;
+  }
+
+  /* FILTRES */
+
+  .filtres {
+    display: grid;
+  }
+
+  .titrefiltres {
+    margin-bottom: 10px;
+  }
+
+  .barreFiltre {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .fam {
+    position: absolute;
+    margin: 34px 0 0 55%;
+    width: 35%;
+  }
+
+  /* HEBERGEMENTS ET POPULAIRES */
+
+  .hebergementetpop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* PARAMETRES HEBERGEMENTS */
+
+  #Hebergements {
+    width: 100%;
+    background-color: white;
+    order: 2;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+  }
+
+  .hebergementmarseille {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hotel {
+    width: 95%;
+    height: 210px;
+    font-size: 14px;
+  }
+
+  .hotelpop {
+    width: 95%;
+    padding: 5px;
+    margin: 8px;
+    font-size: 14px;
+  }
+
+  /* PARAMETRES HEBERGEMENTS POPULAIRES */
+
+  #pluspopulaires {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    order: 1;
+    display: grid;
+  }
+
+  /* PARAMETRES ACTIVITES */
+
+  .containerActivites {
+    display: grid;
+    height: auto;
+    margin-bottom: 25px;
+    justify-content: normal;
+    -moz-margin-start: -60px;
+  }
+
+  .blocActivite {
+    width: auto;
+  }
+
+  .Activite img {
+    width: 100%;
+    height: 100px;
+  }
+
+  .Activite {
+    margin-bottom: 30%;
+    height: 70px;
+    -moz-margin-start: 62px;
+  }
+
+  .nomactivite {
+    padding: 8px 0px 5px 20px;
+    border-radius: 0 0 1.25rem 1.25rem;
+    border-color: transparent;
+    box-shadow: 0 5px 16px #0000002e;
+    margin-top: -12px;
+  }
+
+  /* FOOTER*/
+
+  .blockFooter {
+    display: grid;
+  }
+
+  .interieurblockFooter {
+    width: auto;
+  }
+}
+
+/* RESPONSIVE TABLETTE */
+
+@media (min-width: 768px) and (max-width: 1024px) /* TABLETTE */ {
+  /* TEXTE DU HEADER */
+  .subtext {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* FORMULAIRE DE RECHERCHE */
+
+  .logosearch {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+    margin-top: -15px;
+  }
+
+  /* FILTRES */
+  .filtres {
+    align-items: center;
+    width: 100%;
+  }
+
+  .titre {
+    font-size: 12px;
+  }
+
+  .barreFiltre {
+    width: 18%;
+  }
+
+  .info {
+    align-items: CENTER;
+    position: relative;
+  }
+
+  /* HEBERGEMENTS ET POPULAIRES */
+
+  .hebergementetpop {
+    margin: 25px 0 50px;
+    display: FLEX;
+    flex-direction: column;
+  }
+
+  .titresection {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  /* PARAMETRES HEBERGEMENTS */
+
+  #Hebergements {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /*centré dans l'élément parent*/
+    margin-bottom: 20px;
+    border-radius: 0;
+  }
+
+  /* PARAMETRES HEBERGEMENTS POPULAIRES */
+
+  #pluspopulaires {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+  }
+
+  footer {
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) /* GRAND ECRAN */ {
+  #pluspopulaires {
+    display: grid;
+  }
+}
