@@ -161,6 +161,7 @@ font-family: "Raleway";
 
 .titre-populaire {
   justify-content: space-between;
+  margin-top: 15px;
 }
 
 .fa-chart-line {
