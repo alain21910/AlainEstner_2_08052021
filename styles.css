@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6{
-  margin: 0; /* Retire les marges des titres */
+  margin: 0px; /* Retire les marges des titres */
 } 
 
 .fas {
@@ -67,7 +67,9 @@ font-family: "Raleway";
   margin: auto;
 }
 
-
+.titresection {
+  padding: 0 30px;
+}
 /* PARAMETRES DU HEADER */
 
 .topheader { 
@@ -76,9 +78,272 @@ font-family: "Raleway";
   justify-content: space-between;
 }
 
+/* Mise en forme des filtres*/
 
+.titrefiltres {
+  font-size: 1.3em;
+  margin: 0 20px 0 0;
+  }
+  
+  .titre {
+  font-family: "Raleway", "Sans serif";
+  font-weight: bold;
+  padding-right: 1.5em;
+  padding-left: 0.5em;
+  cursor: pointer;
+  }
+  
+  .barreFiltre:hover {
+  background: #0065fc;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  }
+  
+  .barreFiltre {
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin-right: 2em;
+  border: 2px solid #d9d9d9;
+  border-radius: 2em;
+  font-weight: bold;
+  }
+  
+  .filtres {
+  display: flex;
+  align-items: center;
+  }
+  
+  .imagefiltre {
+  padding: 15px 15px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  cursor: pointer;
+  }
+  
+  .fa-map-marker-alt {
+  color: black;
+  }
+  
+  .search span {
+    color: #FFFFFF;
+  }
+  
+  .search i {
+    display: none;
+    visibility: hidden;
+  }
+  
+  .boutonfiltre p {
+    font-weight: bold;
+    font-size: 15px;
+    }
+    
+    .filtres {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    }
+    
+    .filtres,
+    .filtres .content {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+    .filtres .title {
+    margin-bottom: 20px;
+    padding-top: inherit;
+    padding-right: 20px;
+    }
+    
+    .filtres .boutonfiltre {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 200px;
+    border: 2px #F2F2F2 solid;
+    height: 50px;
+    position: relative;
+    padding-left: 55px;
+    padding-right: 14px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+    cursor: pointer;
+    }
+    
+    .filtres .boutonfiltre:hover {
+    transform: scale(1.05);
+    }
+    
+    .filtres .boutonfiltre:first-child {
+    margin-left: 0;
+    }
+    
+    .filtres .boutonfiltre:last-child {
+    margin-right: 0;
+    }
+    
+    .filtres .boutonfiltre i {
+    line-height: 50px;
+    color: #0065FC;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    background: #DEEBFF;
+    left: -2px;
+    border-radius: 100%;
+    }
+    
+    .boutonfiltre p {
+    margin: auto;
+    }
+
+/* la ligne information */
+
+.info {
+  display: flex;
+  }
+  
+  .fa-info {
+  text-align: center;
+  color: #0065fc;
+  border-radius: 100%;
+  height: 33px;
+  width: 33px;
+  border: solid 1px #d9d9d9;
+  padding: 7px;
+  box-sizing: border-box;
+  }
+  
+  .infotext {
+  padding-left: 10px;
+  }
+  
+  nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 33px;
+  }
+  
+  nav .menu {
+  padding-right: 0px;
+  }
+  
+  .subscribe a {
+  color: var(--main-color);
+  }
+  
+  .subscribe a:hover {
+  border-top: none;
+  }
+  
+  .containerheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .headernav {
+    display: flex;
+    margin-right: 3%;
+  }
+  
+  .Logohaut {
+    cursor: pointer;
+  }
+  
+  header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    color: #0065fc;
+  }
+  
+  header ul li a:hover {
+    border-top: 2px solid #0065fc;
+    padding-top: 21px;
+    color: #0065fc;
+  }
+  
+  header ul li {
+    margin-left: 28px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .inscrire a {
+    color: #0065fc;
+    margin-right: 0%;
+  }
+  
+  .inscrire a:hover {
+    border-top: 2px solid #0065fc;
+    padding-top: 21px;
+  }
+  
+  .inscrire {
+    padding-left: 28px;
+  }
+  
+    
+    .nombrelogementstxt {
+    padding: 5px 0;
+    display: inline-flex;
+    }
+  
+        /* le formulaire de recherche */
+  
+  .logosearch {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #0065fc;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold;
+    font-family: "Raleway", "Sans serif";
+    font-size: 1em;
+    cursor: pointer;
+    margin: 0 -50px;
+  }
+  
+  .iconemap {
+    font-size: 25px;
+    background-color: #f2f2f2;
+    border-radius: 1rem 0 0 1rem;
+    padding: 10px 10px;
+    width: 30px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Raleway", "Sans serif";
+    border-right: none;
+    border-left: none;
+    border-top: #f2f2f2 1px solid;
+    border-bottom: #f2f2f2 1px solid;
+    padding: 0 1.5em;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+  }
+  
 /* HEBERGEMENTS*/
-/* le conteneur */
 
 .row {
   display: flex;
@@ -91,18 +356,23 @@ font-family: "Raleway";
 }
 
 .hebergements-marseille {
-  width: 65%;
+  width: 1150px;
   background-color: #F2F2F2;
   border-radius: 15px;
   padding: 10px;
   margin-right: 25px;
  }
 
+ .titre-hebergement-marseille {
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
 .lodging-block {
     display: flex; 
     width: 30%;
     flex-direction: column; 
-    padding: 25px; 
+    padding: 5px; 
     background-color: #FFFFFF; 
     border-radius: 10px; 
     margin-right: 25px; 
@@ -113,7 +383,7 @@ font-family: "Raleway";
     display: flex; 
     width: 85%;
     flex-direction: row; 
-    padding: 15px; 
+    padding: 5px; 
     background-color: #FFFFFF; 
     border-radius: 15px; 
     margin-right: 15px; 
@@ -153,285 +423,14 @@ font-family: "Raleway";
 }
 
 .populaires {
-  width: 33%;
+  width: 550px;
   border-radius: 15px;
   padding: 10px;
   background-color: #f2f2f2;
 }
 
-.titre-populaire {
-  justify-content: space-between;
-  margin-top: 15px;
-}
-
 .fa-chart-line {
   color: #000000;
-}
-/* Mise en forme des filtres*/
-
-.titrefiltres {
-font-size: 1.3em;
-margin: 0 20px 0 0;
-}
-
-.titre {
-font-family: "Raleway", "Sans serif";
-font-weight: bold;
-padding-right: 1.5em;
-padding-left: 0.5em;
-cursor: pointer;
-}
-
-.barreFiltre:hover {
-background: #0065fc;
-color: #fff;
-transition: 0.4s ease-in-out;
-cursor: pointer;
-}
-
-.barreFiltre {
-display: flex;
-align-items: center;
-width: auto;
-margin-right: 2em;
-border: 2px solid #d9d9d9;
-border-radius: 2em;
-font-weight: bold;
-}
-
-.filtres {
-display: flex;
-align-items: center;
-}
-
-.imagefiltre {
-padding: 15px 15px;
-border-radius: 50%;
-background-color: #d9d9d9;
-cursor: pointer;
-}
-
-.fa-map-marker-alt {
-color: black;
-}
-
-.search span {
-  color: #FFFFFF;
-}
-
-.search i {
-  display: none;
-  visibility: hidden;
-}
-
-.boutonfiltre p {
-  font-weight: bold;
-  font-size: 15px;
-  }
-  
-  .filtres {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
-  }
-  
-  .filtres,
-  .filtres .content {
-  display: flex;
-  flex-flow: row wrap;
-  }
-  
-  .filtres .title {
-  margin-bottom: 20px;
-  padding-top: inherit;
-  padding-right: 20px;
-  }
-  
-  .filtres .boutonfiltre {
-  display: flex;
-  justify-content: space-between;
-  border-radius: 200px;
-  border: 2px #F2F2F2 solid;
-  height: 50px;
-  position: relative;
-  padding-left: 55px;
-  padding-right: 14px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  transition: transform .2s;
-  cursor: pointer;
-  }
-  
-  .filtres .boutonfiltre:hover {
-  transform: scale(1.05);
-  }
-  
-  .filtres .boutonfiltre:first-child {
-  margin-left: 0;
-  }
-  
-  .filtres .boutonfiltre:last-child {
-  margin-right: 0;
-  }
-  
-  .filtres .boutonfiltre i {
-  line-height: 50px;
-  color: #0065FC;
-  position: absolute;
-  width: 50px;
-  text-align: center;
-  background: #DEEBFF;
-  left: -2px;
-  border-radius: 100%;
-  }
-  
-  .boutonfiltre p {
-  margin: auto;
-  }
-
-/* la ligne information */
-
-.info {
-display: flex;
-}
-
-.fa-info {
-text-align: center;
-color: #0065fc;
-border-radius: 100%;
-height: 33px;
-width: 33px;
-border: solid 1px #d9d9d9;
-padding: 7px;
-box-sizing: border-box;
-}
-
-.infotext {
-padding-left: 10px;
-}
-
-nav {
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-padding-top: 33px;
-}
-
-nav .menu {
-padding-right: 0px;
-}
-
-.subscribe a {
-color: var(--main-color);
-}
-
-.subscribe a:hover {
-border-top: none;
-}
-
-.containerheader {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.headernav {
-  display: flex;
-  margin-right: 3%;
-}
-
-.Logohaut {
-  cursor: pointer;
-}
-
-header ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  margin-left: auto;
-  color: #0065fc;
-}
-
-header ul li a:hover {
-  border-top: 2px solid #0065fc;
-  padding-top: 21px;
-  color: #0065fc;
-}
-
-header ul li {
-  margin-left: 28px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.inscrire a {
-  color: #0065fc;
-  margin-right: 0%;
-}
-
-.inscrire a:hover {
-  border-top: 2px solid #0065fc;
-  padding-top: 21px;
-}
-
-.inscrire {
-  padding-left: 28px;
-}
-
-  
-  .nombrelogementstxt {
-  padding: 5px 0;
-  display: inline-flex;
-  }
-
-      /* le texte d'accroche */
-
-      /* le formulaire de recherche */
-
-.logosearch {
-  display: inline-flex;
-  align-items: center;
-}
-
-button {
-  background-color: #0065fc;
-  border: none;
-  padding: 15px 15px;
-  border-radius: 0px 10px 10px 0px;
-  font-weight: bold;
-  font-family: "Raleway", "Sans serif";
-  font-size: 1em;
-  cursor: pointer;
-  margin: 0 -50px;
-}
-
-.iconemap {
-  font-size: 25px;
-  background-color: #f2f2f2;
-  border-radius: 1rem 0 0 1rem;
-  padding: 10px 10px;
-  width: 30px;
-  text-align: center;
-}
-
-input {
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: bold;
-  font-family: "Raleway", "Sans serif";
-  border-right: none;
-  border-left: none;
-  border-top: #f2f2f2 1px solid;
-  border-bottom: #f2f2f2 1px solid;
-  padding: 0 1.5em;
-  width: 200px;
-  height: 50px;
-  font-size: 15px;
 }
 
 /* PARAMETRES ACTIVITES */
@@ -447,9 +446,7 @@ input {
 }
 
 .Activites {
-  margin-top: 35px;
-  margin-bottom: 25px;
-  margin: 35px;
+  margin: 30px;
 }
 
 .blocActivites {
@@ -464,17 +461,17 @@ input {
   margin-right: 1%;
 }
 
-.blocActivites2 {
-  width: 100%;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px 1px #f2f2f2;
-}
-
 .blocActivites img {
   width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
+.blocActivites2 {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  }
 
 .blocActivites2 img {
   width: 100%;
@@ -493,41 +490,44 @@ input {
   padding-left: 5%;
   width: 95%;
 }
+
 .imageActivite3, .imageActivite6 {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .imageActivite1 img {
-  height: 530px;
+
+  width: 100%;
+  height: 600px;
   border-radius: 15px 15px 0 0 ;
 }
 
 .imageActivite2 img {
-  height: 290px;
+  height: 360px;
   border-radius: 15px 15px 0 0 ;
 }
 
 .imageActivite3 img {
-  height: 130px;
+  height: 185px;
   border-radius: 15px 15px 0 0 ;
 }
 
 .imageActivite4 img {
-  height: 530px;
+  height: 600px;
   border-radius: 15px 15px 0 0 ;
 }
 
 .imageActivite5 img {
-  height: 220px;
+  height: 270px;
   border-radius: 15px 15px 0 0 ;
 }
 
 .imageActivite6 img {
-  height: 200px;
+  height: 270px;
   border-radius: 15px 15px 0 0 ;
 }
 
-       /* FOOTER*/
+       /* FOOTER - Pied de page */
 
  footer {
   background-color: #f2f2f2;
@@ -536,7 +536,8 @@ input {
 .blockFooter {
   display: flex;
   max-width: 100%;
-  padding: 0 10px;
+  padding: 0 60px;
+
   box-sizing: border-box;
 }
 
@@ -799,6 +800,7 @@ input {
   .titresection {
     text-align: center;
     padding-bottom: 5px;
+    padding-left: 10px;
   }
 
   /* PARAMETRES HEBERGEMENTS */
