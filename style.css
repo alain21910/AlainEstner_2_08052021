@@ -573,7 +573,7 @@ footer {
   
   body {
     max-width: 812px;
-    width: 100%;
+    width: 120%;
     display: block ;
   }
 
@@ -582,10 +582,17 @@ footer {
     margin-right: 5%;
   }
 
-  header ul {
-    flex-direction: column;
+  .logosearch {
+    display: inline-flex;
+    align-items: center;
     width: 100%;
+    height: auto;
   }
+
+  header ul {
+    flex-direction: column-reverse;
+    width: 100%;
+    }
   
   .containerheader {
     display: flex;
@@ -609,52 +616,52 @@ footer {
   }
 
   .populaires {
-    width: 110%;
-  padding: 5px 0px 60px 0px;
+    width: 90%;
+    padding: 5px 15px 60px 0px;
+    margin: 5px 25px 30px 0px;
   } 
 
   .hebergements-marseille {
-    width: 100%;
+    width: 99%;
     background-color: #ffffff;
     border-radius: 15px;
-    padding: 15px 0px 30px 0px;
+    padding: 5px 0px 30px 0px;
   }
 
   .hebergements-marseille .row {
     flex-direction: column;
-    width: 100%;
+    width: 99%;
     justify-content: space-between;
-    margin: 5px 0px 15px -10px;
+    margin: 5px 0px 30px -25px;
   }
 
   .lodging-block {
-    width: 100%;
+    width: 90%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin-bottom: 25px;
-  
   }
 
   .blocActivite-container {
-    width: 98%;
-    margin-bottom: 25px;
+    width: 90%;
+    margin-top: 30px;
   }
 
   .Activites .row {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
+    margin-top: 30px;
   }
 
   .blocActivites {
-    width: 98%;
+    width: 90%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 
   .blocActivites2 {
-    width: 100%;
+    width: 98%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
-    margin-bottom: 60px;
-    
+    margin-bottom: 50px;
   }
 
   .imageActivite1 img {
@@ -701,8 +708,6 @@ footer {
 
   .blockFooter {
     flex-direction: column;
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 0px;
+    padding: 0px 40px;
     }
 }
