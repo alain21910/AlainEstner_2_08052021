@@ -573,24 +573,27 @@ footer {
   
   body {
     max-width: 812px;
-    width: 500px;
+    width: 100%;
+    display: block ;
   }
 
   .headernav {
     display: flex;
-    margin-right: 3%;
+    margin-right: 5%;
   }
-  
+
   header ul {
     flex-direction: column;
+    width: 100%;
   }
-
-  .logosearch {
-    width: 110%;
-    display: inline-flex;
+  
+  .containerheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
   }
-
+  
   .container{
     padding: 0px 1.5rem;
     width: 100%;
@@ -607,28 +610,28 @@ footer {
 
   .populaires {
     width: 110%;
-    border-radius: 0px 0px 0px 0px;
+  padding: 5px 0px 60px 0px;
   } 
 
   .hebergements-marseille {
     width: 100%;
     background-color: #ffffff;
     border-radius: 15px;
-    margin-right: 25px;
-    margin-left: 0px;
+    padding: 15px 0px 30px 0px;
   }
 
   .hebergements-marseille .row {
     flex-direction: column;
     width: 100%;
     justify-content: space-between;
-    margin: 15px 15px 15px 5px;
+    margin: 5px 0px 15px -10px;
   }
 
   .lodging-block {
     width: 100%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin-bottom: 25px;
+  
   }
 
   .blocActivite-container {
@@ -644,53 +647,54 @@ footer {
   .blocActivites {
     width: 98%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
   }
 
   .blocActivites2 {
     width: 100%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
+    
   }
 
   .imageActivite1 img {
-    height: 150px;
+    height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
 
   .imageActivite2 img {
-    height: 150px;
+    height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     }
 
   .imageActivite3 img {
-    height: 150px;
+    height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
       }
 
   .imageActivite3 img {
-    height: 150px;
+    height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
       }     
  
   .imageActivite4 img {
-    height: 150px;
+    height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     } 
     
   .imageActivite5 img {
-    height: 150px;
+    height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     }   
   
   .imageActivite6 img {
-    height: 150px;
+    height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     }
