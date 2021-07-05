@@ -13,7 +13,6 @@ body {
 font-size: 15px;
 }
 
-/* Rendre les images responsive */
 img {
   width: 100%;
   height: auto;
@@ -67,6 +66,7 @@ p {
 .titresection {
   padding: 0 30px;
 }
+
 /* PARAMETRES DU HEADER */
 
 .topheader {
@@ -166,7 +166,7 @@ p {
   padding-right: 14px;
   margin-right: 20px;
   margin-bottom: 10px;
-  transition: transform 0.2s;
+  transition: 0.2s;
   cursor: pointer;
 }
 
@@ -230,7 +230,7 @@ nav .menu {
 }
 
 .subscribe a {
-  color: var(--main-color);
+  color: var;
 }
 
 .subscribe a:hover {
@@ -558,7 +558,7 @@ footer {
 
 .footerTitre {
   display: block;
-  font-size: 1.3em;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -592,7 +592,7 @@ footer {
   header ul {
     flex-direction: column-reverse;
     width: 100%;
-    }
+  }
   
   .containerheader {
     display: flex;
@@ -674,40 +674,40 @@ footer {
     height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    }
+  }
 
   .imageActivite3 img {
     height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-      }
+  }
 
   .imageActivite3 img {
     height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-      }     
+  }     
  
   .imageActivite4 img {
     height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    } 
+  } 
     
   .imageActivite5 img {
     height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    }   
+  }   
   
   .imageActivite6 img {
     height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    }
+  }
 
   .blockFooter {
     flex-direction: column;
     padding: 0px 40px;
-    }
+  }
 }
