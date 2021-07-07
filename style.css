@@ -109,7 +109,7 @@ a.activités {
 }
 a.log-in {
   background-color: white;
-  color: black;
+  color: #0065FC;
   border-top: 3px solid white;
   padding-top: 62px;
 }
@@ -266,10 +266,6 @@ nav {
 
 nav .menu {
   padding-right: 0px;
-}
-
-.subscribe a {
-  color: var;
 }
 
 .subscribe a:hover {
@@ -583,10 +579,10 @@ footer {
   }
 
   .header {
-    display: flex;
     width: 90%;
-    margin: auto;
-    margin-top: 0px;
+    padding: 30PX;
+    transition-duration: 0.1S;
+    
   }
   
   .logo {
@@ -600,31 +596,32 @@ footer {
   a.log-in {
    display: flex;
    padding: 30px 20px 30px 20px;
-   color: #0065FC;
    font-weight:bold;
    font-size: 14px;
    border-top: 3px solid white;
   }
   
   a.hebergements {
+    margin-left: -80px;
     padding: 15px 0px 30px 0px;
     color: #0065FC;
-    text-align: left;
     border-top: 3px solid white;
     border-bottom: 3px solid #0065fc;
   }
   
   a.activités {
-    padding: 30px 0px 30px 20px;
+    padding: 30px 0px 30px 90px;
     color: black;
     border-top: 3px solid white;
+    border-bottom: 3px solid white;
   }
+
   a.log-in {
     background-color: white;
     color: #0065fc;
     border-top: 3px solid white;
     padding-top: 62px;
-    padding: 30px 0px 30px 20px;
+    padding: 30px 80px 30px 20px;
   }
 
   .container {
@@ -638,7 +635,7 @@ footer {
 
   .hebergements {
     flex-direction: column-reverse;
-    width: 95%;
+    width: 105%;
   }
 
   .populaires {
@@ -673,18 +670,18 @@ footer {
 
   .Activites .row {
     flex-direction: column;
-    width: 88%;
+    width: 98%;
     margin-top: 30px;
   }
 
   .blocActivites {
-    width: 85%;
+    width: 88%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin-bottom: 50px;
   }
 
   .blocActivites2 {
-    width: 95%;
+    width: 98%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin-bottom: 50px;
   }
@@ -735,4 +732,4 @@ footer {
     flex-direction: column;
     padding: 0px 40px;
   } 
-
+}
