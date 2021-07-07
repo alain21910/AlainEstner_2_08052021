@@ -621,9 +621,10 @@ footer {
     color: #0065fc;
     border-top: 3px solid white;
     padding-top: 62px;
-    padding: 30px 80px 30px 20px;
+    padding: 30px 100px 30px 20px;
   }
 
+  
   .container {
     padding: 0px 25px;
     width: 100%;
@@ -635,7 +636,7 @@ footer {
 
   .hebergements {
     flex-direction: column-reverse;
-    width: 105%;
+    width: 98%;
   }
 
   .populaires {
@@ -670,18 +671,18 @@ footer {
 
   .Activites .row {
     flex-direction: column;
-    width: 98%;
+    width: 88%;
     margin-top: 30px;
   }
 
   .blocActivites {
-    width: 88%;
+    width: 92%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin-bottom: 50px;
   }
 
   .blocActivites2 {
-    width: 98%;
+    width: 102%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin-bottom: 50px;
   }
