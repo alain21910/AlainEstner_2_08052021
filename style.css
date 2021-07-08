@@ -9,6 +9,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
+  width: 100%;
 }
 
 img {
@@ -63,55 +64,48 @@ p {
 
 .header {
   display: flex;
-  margin: auto;
-  margin-top: 0px;
-  padding: 0px 40px;
+  margin: 1% 5% 0% 3%;
 }
 
 .logo {
- width: 110px;
- height: 37px;
+ width: 10%;
+ height: 10%;
  margin-right: auto;
- margin-top: 16px;
+ 
  object-fit: cover;
-}
-
-a.log-in {
- display: flex;
- padding: 30px 20px 0px 0px;
  color: #0065FC;
- font-weight:bold;
- font-size: 14px;
- border-top: 3px solid white;
+ margin-top: 1%;
 }
 
 a.hebergements {
-  padding: 15px 20px 30px 20px;
+  padding: 1% 3% 1% 3%;
+  background-color: white;
   color: #0065FC;
-  font-size: 14px;
-  text-align: center;
-  border-top: 3px solid #0065FC;
+  border-top: 3px solid #0065fc;
+  padding-top: 27px;
+  padding-right: 10%;
 }
 
 a.activités {
-  padding: 30px 20px 30px 20px;
+  padding: 1% 3% 1% 5%;
+  background-color: white;
   color: black;
-  font-size: 14px;
-  border-top: 3px solid white;
+  padding-top: 30px;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 a.log-in {
+  padding: 1% 3% 1% 3%;
   background-color: white;
   color: #0065FC;
-  border-top: 3px solid white;
-  padding-top: 62px;
-}
+  padding-top: 30px;
+} 
 
 /* Mise en forme des filtres*/
 
 .subtext {
   padding: 0 40px;
 }
-
 
 .titrefiltres {
   font-size: 1.3em;
@@ -257,9 +251,7 @@ a.log-in {
 
 nav {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
-  padding-top: 33px;
 }
 
 nav .menu {
@@ -569,45 +561,35 @@ footer {
 @media screen and (max-width: 812px) /* SMARTPHONES */ {
   .header {
     transition-duration: 0.1S;
+    width: 100%;
   }
   
   .logo {
    width: 100px;
-   height: 37px;
-   margin-right: auto;
-   margin-top: 16px;
-   object-fit: cover;
+   height: 4%;
+   margin-top: 3%;
+   margin-left: 5%;
   }
   
   a.log-in {
    display: flex;
-   padding: 30px 20px 30px 20px;
-   font-weight:bold;
+   padding: 30px 50px 30px 20px;
    font-size: 14px;
    border-top: 3px solid white;
   }
   
   a.hebergements {
-    margin-left: -80px;
-    padding: 15px 0px 30px 0px;
+    padding: 60px 30px 30px 20px;
     color: #0065FC;
     border-top: 3px solid transparent;
     border-bottom: 3px solid #0065fc;
+    text-align: center;
   }
   
   a.activités {
-    padding: 30px 0px 30px 90px;
+    padding: 60px 50px 0px 90px;
     color: black;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
-  }
-
-  a.log-in {
-    background-color: white;
-    color: #0065fc;
-    border-top: 3px solid white;
-    padding-top: 62px;
-    padding: 30px 100px 30px 20px;
+    border-bottom: 3px solid #f2f2f2;
   }
 
   .hebergements {
