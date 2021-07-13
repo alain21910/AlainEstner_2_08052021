@@ -1,13 +1,13 @@
 /*      HEADER      */
 
-*{
+*{        /* sélection d'affichage identique */
   font-family:'Raleway', sans-serif;
   padding: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
  }
- body{
+ body{    /* Corps*/
    margin:auto;
  }
  .container{
@@ -15,7 +15,7 @@
    margin: auto;
  }
 header.header{
-  display: flex;
+  display: flex;      /*affichage flexible*/
   width: 90%;
   margin: auto;
   margin-top: 0px;
@@ -25,19 +25,19 @@ header.header{
  height: 37px;
  margin-right: auto;
  margin-top: 16px;
- object-fit: cover;
+ object-fit: cover;     /*ajustement de l'objet*/
 }
 a.log-in{
  display: flex;
- padding: 30px 20px 30px 20px;
+ padding: 30px 20px 30px 20px;      /*remplissage*/
  color: #0065FC;
- font-weight:bold;
+ font-weight:bold;                  /*police de caractères: gras*/
  font-size: 14px;
- border-top: 3px solid white;
+ border-top: 3px solid white;     /*bordure suppérieure fixe blanche*/
 }
-nav.nav-bar{
+nav.nav-bar{      /*barre de navigation*/
   display: flex;
-  align-items: center;
+  align-items: center;      /*alignement des éléments centré*/
 }
 a.hebergements{
   padding: 30px 20px 30px 20px;
@@ -47,7 +47,7 @@ a.hebergements{
   border-top: 3px solid #0065FC;
 }
 a.hebergements:hover{
-  font-weight: 600;
+  font-weight: 600;     /*police de caractères*/
   background-color: #F3F3F3;
   border-top: 3px solid #F3F3F3;
 }
@@ -59,8 +59,8 @@ a.activités{
 }
 a.activités:hover{
   color: #0065FC;
-  font-weight: 600;
-  background-color: #F3F3F3;
+  font-weight: 600;                 /* Valeurs numériques */
+  background-color: #F3F3F3;      /*couleur arrière plan: grise*/
   border-top: 3px solid #F3F3F3;
 }
 a.log-in:hover{
@@ -68,7 +68,7 @@ a.log-in:hover{
   border-top: 3px solid #F3F3F3;
 }
 
-/* Main */
+/* Main */ /*balise*/
 
 h1{
  margin-top: 0px;
@@ -84,7 +84,7 @@ p.description{
  margin-top: 12px;
  margin-bottom: 20px;
 }
-.search{
+.search{          
   width: 90%;
   margin:auto;
   display: flex;
@@ -114,7 +114,7 @@ input{
   height: 45px;
   border-radius: 0 10px 10px 0;
   border-color:#0065FC;
-  width: fit-content;
+  width: fit-content;         /*contenu adapté à la largeur*/
 }
 .search-button:hover{
   font-weight: bold;
@@ -126,13 +126,13 @@ a{
 .rechercher{
   margin: 0;
   padding-top: 11px;}
-.fa-spin-hover:hover {
+.fa-spin-hover:hover {          /*animation web*/
   -webkit-animation: fa-spin 0.5s linear;
   -moz-animation: fa-spin 0.5s linear;
   -o-animation: fa-spin 0.5s linear;
   animation: fa-spin 0.5s linear;
 }
-.placeholder{
+.placeholder{     
  font-weight: bold;
  font-size: 16px;
  color: black;
@@ -167,7 +167,7 @@ div.icon-container1{
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #DBEAFF;
+  background-color: white;
   margin: -2px;
 }
 div.icon-container2{
@@ -177,7 +177,7 @@ div.icon-container2{
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #DBEAFF;
+  background-color: white;
   margin: -2px;
 }
 div.icon-container3{
@@ -187,7 +187,7 @@ div.icon-container3{
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #DBEAFF;
+  background-color: white;
   margin: -2px;
 }
 div.icon-container4{
@@ -197,7 +197,7 @@ div.icon-container4{
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #DBEAFF;
+  background-color: white;
   margin: -2px;
 }
 i.fas.fa-money-bill-wave::before{
@@ -231,7 +231,7 @@ h3.filtre-name{
   display: flex;
   border-radius: 25px;
   background-color: white;
-  border: 2px solid #E4E4E4;
+  border: 2px solid white;
   height: 40px;
   font-weight: bold;
   margin-right: 25px;
@@ -244,7 +244,7 @@ h3.filtre-name{
   display: flex;
   border-radius: 25px;
   background-color: white;
-  border: 2px solid #E4E4E4;
+  border: 2px solid white;
   height: 40px;
   font-weight: bold;
   margin-right: 25px;
@@ -257,7 +257,7 @@ h3.filtre-name{
   display: flex;
   border-radius: 25px;
   background-color: white;
-  border: 2px solid #E4E4E4;
+  border: 2px solid white;
   height: 40px;
   font-size: 15px;
   font-weight: bold;
@@ -271,7 +271,7 @@ h3.filtre-name{
   display: flex;
   border-radius: 25px;
   background-color: white;
-  border: 2px solid #E4E4E4;
+  border: 2px solid white;
   height: 40px;
   font-size: 15px;
   font-weight: bold;
@@ -331,7 +331,7 @@ h2.title{
   padding-top: 15px;
 }
 .gallery-hebergements{
-  transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;      /*transition affichage 2 secondes*/
   display: block;
   height: 125px;
 }
@@ -404,7 +404,7 @@ p.caption{
   width: 100%;
   margin-right: 0px;
   margin-top: 0px;
-  box-shadow: 0 2px 10px 0 #ACAC
+  box-shadow: 0 2px 10px 0 #ACACAC;
 }
 .afficher-plus{
   margin-top: 10px;
@@ -517,14 +517,14 @@ p.caption2{
   position: absolute;
 }
 .gallery-populaire{
-  transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;      /*transition affichage 2 secondes*/
   width: fit-content;
 }
 .gallery-populaire:hover{
   transform: scale(1.1);
 }
 
-/* ACTIVITES A MARSEILLE */
+/* Activités à Marseille */
 
 #second-part{
   display: block;
@@ -589,7 +589,7 @@ div.gallery-item1{
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 3;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;      /*transition affichage 2 secondes*/
 }
 .gallery-item1:hover{
   transform: scale(1.1);
@@ -691,7 +691,7 @@ div.grid-activités5{
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;      /*transition affichage 2 secondes*/
 }
 .gallery-img5{
   display: block;
@@ -718,7 +718,7 @@ div.grid-activités6{
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;      /*transition affichage 2 secondes*/
 }
 .gallery-item6:hover{
   transform: scale(1.1);
@@ -730,6 +730,9 @@ div.grid-activités6{
   border-radius: 20px 20px 0 0 ;
   object-fit: cover;
 }
+
+      /*      Footer - Pied de page      */
+
 .footer{
   display: flex;
   margin-top: 70px;
@@ -763,9 +766,9 @@ div.colonnes{
   color: #0065FC;
 }
 
-/* Ecrans & Smartphones */
+/*      Ecrans & Smartphones       */
 
-/*   Supprimer l'icône de recherche  */
+/*    Supprimer l'icône de recherche    */
 
 @media screen and (min-width: 412px){
   i.fas.fa-search::before{
@@ -773,27 +776,6 @@ div.colonnes{
     display: none;
   }
  }
-
-@media screen and (min-width: 4300px) and (max-width: 6000px){
-  div.activites-marseille{
-  grid-template-rows: repeat(2, 4vw);
-  }
-  h3.filtre-name{
-  padding-top: 3px;
-  }
-}
-
-@media screen and (min-width: 3000px) and (max-width: 4100px){
-  div.activites-marseille{
-      grid-template-rows: repeat(2, 6vw);
-  }
-}
-
-@media screen and (min-width: 2680px) and (max-width: 3000px){
-  div.activites-marseille{
-  grid-template-rows: repeat(2, 8vw);
-  }
-}
 
 @media screen and (max-width: 1370px){
   .container{
